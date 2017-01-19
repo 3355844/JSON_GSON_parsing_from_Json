@@ -11,7 +11,7 @@ public class Main_GSON_Runner {
         Gson gson = new Gson();
         VisitCard card = null;
         try {
-            FileReader  reader = new FileReader("visitCard.json");
+            FileReader  reader = new FileReader("visitCard.txt");
             card = gson.fromJson(reader,VisitCard.class);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
