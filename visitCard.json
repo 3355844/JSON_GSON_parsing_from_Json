@@ -1,0 +1,11 @@
+{
+  "name": "Some",
+  "surName": "One",
+  "phones": ["3355844", "3355844"],
+  "sites": ["http://3355844.com", "http://3355844.com"],
+  "place": {
+    "country": "USA",
+    "city": "New York",
+    "street": "Wall Street"
+  }
+}
