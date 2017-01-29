@@ -2,9 +2,9 @@
  * Created by 33558 on 19.01.2017.
  */
 public class Place {
-    String country;
-    String city;
-    String street;
+    private String country;
+    private String city;
+    private String street;
 
     @Override
     public String toString() {
